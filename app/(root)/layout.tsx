@@ -1,5 +1,5 @@
 // app/layout.tsx
-import Navbar from "../components/Navbar";
+import Navbarr from "../../components/Navbarr";
 
 export default function RootLayout({
   children,
@@ -10,7 +10,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <>
-            <Navbar />
+            <Navbarr />
             {children}
         </>
       </body>
